@@ -4,14 +4,9 @@ module vga_clk25 (
 	output  clk25
 );
 
-
 reg clk2;
 
-
-
-
 assign clk25 = clk2;
-
 
 always@(posedge clk50) 
 begin 
